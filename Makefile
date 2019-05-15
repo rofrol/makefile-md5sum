@@ -1,4 +1,4 @@
-NOW=${shell date}
+NOW=$$(date)
 print-now:
 	@echo $(NOW)
 md5sum:
